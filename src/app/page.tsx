@@ -2,6 +2,7 @@ import Banner from '@/components/banner';
 import Casestudies from '@/components/case-studies';
 import Lmth from '@/components/lmth';
 import Services from '@/components/services';
+import Workingprocess from '@/components/working-process';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Services />
       <Lmth />
       <Casestudies />
+      <Workingprocess />
     </main>
   );
 }
