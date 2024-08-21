@@ -19,7 +19,7 @@ const Servicecard: React.FC<ServicecardProps> = ({
   return (
     <div
       className={cn(
-        'p-5 rounded-xl border border-dark flex flex-col  lg:grid grid-cols-2 gap-5 shadow-[5px_5px_0px_0px_rgb(0,0,0)]',
+        'p-5 rounded-2xl border border-dark flex flex-col  lg:grid grid-cols-2 gap-5 shadow-[0px_5px_0px_0px_rgb(0,0,0)]',
         {
           'bg-green': variant === 'green',
         },

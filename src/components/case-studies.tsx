@@ -11,7 +11,7 @@ const Casestudies = () => {
           Marketing Success through Our Case Studies
         </p>
       </div>
-      <div className="rounded-xl p-5 bg-dark flex flex-col gap-5 lg:grid grid-cols-3 text-white">
+      <div className="rounded-2xl p-5 bg-dark flex flex-col gap-5 lg:grid grid-cols-3 text-white">
         <div className="flex flex-col gap-3 py-3 lg:py-0 lg:border-b-0 lg:px-3 border-b lg:border-r border-white justify-between">
           <p>
             For a local restaurant, we implemented a

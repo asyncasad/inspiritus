@@ -2,7 +2,7 @@ import Button from './ui/button';
 
 const Lmth = () => {
   return (
-    <div className="relative flex p-5  flex-col gap-5 lg:grid grid-cols-2 bg-gray rounded-xl">
+    <div className="relative flex p-5  flex-col gap-5 lg:grid grid-cols-2 bg-gray rounded-2xl">
       <div className="flex flex-col gap-5">
         <h3>Let&apos;s make things happen</h3>
         <p>

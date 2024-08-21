@@ -11,7 +11,7 @@ const Label: React.FC<LabelProps> = ({
   return (
     <div
       className={cn(
-        'py-1 px-2 rounded-xl  w-max h-max',
+        'py-1 px-2 rounded-2xl  w-max h-max',
         {
           'bg-gray': variant === 'gray',
         },

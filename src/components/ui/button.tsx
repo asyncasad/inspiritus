@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       className={cn(
-        'py-2 w-max text-white px-3 flex items-center justify-center rounded-xl bg-dark hover:opacity-80 transition-all',
+        'py-2 w-max text-white px-3 flex items-center justify-center rounded-2xl bg-dark hover:opacity-80 transition-all',
         {
           'w-full': fullWidth,
         }

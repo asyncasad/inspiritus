@@ -18,7 +18,7 @@ const Processcard: React.FC<ProcesscardProps> = ({
   return (
     <div
       className={cn(
-        'p-5 bg-gray shadow-[5px_5px_0px_0px_rgb(0,0,0)] rounded-xl border border-dark',
+        'p-5 bg-gray shadow-[0px_5px_0px_0px_rgb(0,0,0)] rounded-2xl border border-dark',
         {
           'bg-green transition-all': isOpen,
         }
