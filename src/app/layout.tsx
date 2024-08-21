@@ -8,6 +8,8 @@ const spack_grotesk = Space_Grotesk({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Inspiritus',
+  description:
+    'Explore Inspiritus, a beautifully crafted landing page developed with Next.js 14, TypeScript, and Tailwind CSS. Originally designed by Olga Skuja as Positivus on Figma.',
 };
 
 export default function RootLayout({
