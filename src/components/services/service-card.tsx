@@ -1,4 +1,5 @@
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Label from '../ui/label';
@@ -59,16 +60,24 @@ const Servicecard: React.FC<ServicecardProps> = ({
           >
             Learn more
           </Link>
-          <img
-            src={img}
-            className="h-full w-full lg:hidden"
-          />
+          <div className="w-full aspect-square relative lg:hidden">
+            <Image
+              objectFit="contain"
+              layout="fill"
+              alt="service"
+              src={img}
+            />
+          </div>
         </div>
       </div>
-      <img
-        src={img}
-        className="h-full w-full hidden lg:flex"
-      />
+      <div className="w-full h-full relative hidden lg:flex">
+        <Image
+          objectFit="contain"
+          layout="fill"
+          alt="service"
+          src={img}
+        />
+      </div>
     </div>
   );
 };

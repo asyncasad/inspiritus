@@ -1,12 +1,12 @@
+import Image from 'next/image';
 import Button from './ui/button';
-
 const Banner = () => {
   return (
     <div
       id="banner"
-      className="flex flex-col gap-5 my-5 md:my-10 lg:my-20 md:grid grid-cols-2"
+      className="flex flex-col gap-5 md:grid grid-cols-2"
     >
-      <div className="flex flex-col h-full gap-5 justify-center">
+      <div className="flex flex-col w-full aspect-square gap-5 justify-center">
         <h1>
           Navigating the digital landscape for success
         </h1>
@@ -18,8 +18,13 @@ const Banner = () => {
         </p>
         <Button label="Book a consultation" />
       </div>
-      <div className="h-full flex items-center justify-end">
-        <img src="./banner-image.svg" />
+      <div className="h-full w-full aspect-square relative flex items-center justify-end">
+        <Image
+          objectFit="contain"
+          layout="fill"
+          alt="banner"
+          src="/banner-image.svg"
+        />
       </div>
     </div>
   );
