@@ -29,7 +29,7 @@ const Teamcard: React.FC<TeamcardProps> = ({
           <p>{position}</p>
         </div>
       </div>
-      <hr className="border border-dark" />
+      <hr className="border-0.5 border-dark" />
       <p>{desc}</p>
     </div>
   );
