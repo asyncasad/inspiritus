@@ -12,7 +12,7 @@ const Lmth = () => {
         </p>
         <Button label="Get your free proposal" />
       </div>
-      <div className="hidden lg:flex absolute right-10 -top-10">
+      <div className="hidden lg:flex absolute right-10 -top-[30%]">
         <img src="./lmth.svg" className="h-min" />
       </div>
     </div>

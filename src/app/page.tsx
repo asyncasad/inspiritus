@@ -1,5 +1,6 @@
 import Banner from '@/components/banner';
 import Casestudies from '@/components/case-studies';
+import Contactus from '@/components/contact-us';
 import Footer from '@/components/footer';
 import Lmth from '@/components/lmth';
 import Services from '@/components/services';
@@ -15,6 +16,7 @@ export default function Home() {
       <Casestudies />
       <Workingprocess />
       <Team />
+      <Contactus />
       <Footer />
     </main>
   );

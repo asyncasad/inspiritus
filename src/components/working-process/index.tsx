@@ -16,7 +16,7 @@ const Workingprocess = () => {
           Goals
         </p>
       </div>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-5">
         {workProcess.map((process, index) => (
           <Processcard
             key={index}
